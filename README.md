@@ -17,31 +17,29 @@ ShazamCoreAPI: An API for integrating Shazam music recognition functionality int
 BardAPI: An API that provides access to a vast music library, allowing developers to retrieve information about songs, artists, albums, and more.
 Project Structure
 The project follows a typical structure for a Python web application, with separate directories for frontend and backend code. Here's an overview of the project structure:
-
-arduino
-Copy code
-├── frontend
-│   ├── public
-│   ├── src
-│   ├── ...
-├── backend
-│   ├── app
-│   ├── models
-│   ├── ...
-├── dataset
-│   ├── songs.csv
-├── notebooks
-│   ├── data_preparation.ipynb
-│   ├── model_training.ipynb
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
+<br/>
+├── frontend<br/>
+│   ├── public<br/>
+│   ├── src<br/>
+│   ├── ...<br/>
+├── backend<br/>
+│   ├── app<br/>
+│   ├── models<br/>
+│   ├── ...<br/>
+├── dataset<br/>
+│   ├── songs.csv<br/>
+├── notebooks<br/>
+│   ├── data_preparation.ipynb<br/>
+│   ├── model_training.ipynb<br/>
+├── .gitignore<br/>
+├── LICENSE<br/>
+├── README.md<br/>
+├── requirements.txt<br/>
 The frontend directory contains all the code related to the frontend of the Song Sift application, including React components, stylesheets, and asset files.
 The backend directory contains the backend API code written in Python using the FastAPI framework. It includes the API routes, models, and other utility functions.
-The dataset directory contains the dataset file songs.csv used for training and analysis.
-The notebooks directory contains Jupyter notebooks for data preparation and model training. These notebooks provide a step-by-step guide on how the dataset is prepared and how the machine learning model is trained.
-The .gitignore file specifies which files and directories should be ignored by Git.
-The LICENSE file contains the license information for the project.
-The README.md file is the current file you are reading, which provides an overview of the project and its components.
-The requirements.txt file lists all the Python dependencies required to run the project.
+The dataset directory contains the dataset file songs.csv used for training and analysis.<br/>
+The notebooks directory contains Jupyter notebooks for data preparation and model training. These notebooks provide a step-by-step guide on how the dataset is prepared and how the machine learning model is trained.<br/>
+The .gitignore file specifies which files and directories should be ignored by Git.<br/>
+The LICENSE file contains the license information for the project.<br/>
+The README.md file is the current file you are reading, which provides an overview of the project and its components.<br/>
+The requirements.txt file lists all the Python dependencies required to run the project.<br/>
