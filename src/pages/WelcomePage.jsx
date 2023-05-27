@@ -27,8 +27,8 @@ const WelcomePage = () => {
   return (
     <div className="welcome-page">
         <div className="wrapper">
-            <h1 className="heading">Musicaly</h1>
-            <h2 className="sub-heading">A Music App</h2>
+            <h1 className="heading">SongSift</h1>
+            <h2 className="sub-heading">An ML based Music Recommendation App</h2>
             <div className="login-form__input" onClick={e => redirect(e, signInWithGoogle)}>
                 <img src="https://img.icons8.com/ios-filled/50/000000/google-logo.png" alt="google icon"/>
                 <span> Continue with Google</span>
