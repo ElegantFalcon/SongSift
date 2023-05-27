@@ -17,6 +17,7 @@ ShazamCoreAPI: An API for integrating Shazam music recognition functionality int
 BardAPI: An API that provides access to a vast music library, allowing developers to retrieve information about songs, artists, albums, and more.
 Project Structure
 The project follows a typical structure for a Python web application, with separate directories for frontend and backend code. Here's an overview of the project structure:
+```
 <br/>
 ├── frontend<br/>
 │   ├── public<br/>
@@ -35,6 +36,7 @@ The project follows a typical structure for a Python web application, with separ
 ├── LICENSE<br/>
 ├── README.md<br/>
 ├── requirements.txt<br/>
+```
 The frontend directory contains all the code related to the frontend of the Song Sift application, including React components, stylesheets, and asset files.
 The backend directory contains the backend API code written in Python using the FastAPI framework. It includes the API routes, models, and other utility functions.
 The dataset directory contains the dataset file songs.csv used for training and analysis.<br/>
